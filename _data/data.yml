@@ -23,7 +23,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-
+    orcid: 0000-0002-4258-3350
 
 education:
     - degree: MSc in Informatics Engineering
