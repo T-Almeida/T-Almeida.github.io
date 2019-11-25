@@ -24,13 +24,10 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
-career-profile:
-    title: Career Profile
-    summary: |
 
 education:
     - degree: MSc in Informatics Engineering
-      university: University of London
+      university: Aveiro University
       time: 2017 - 2019
       #details: |
     - degree: BSc in Informatics Engineering
