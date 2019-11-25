@@ -66,6 +66,19 @@ publications:
         link: "https://link.springer.com/chapter/10.1007/978-3-030-16187-3_43"
         authors: Gusmão, P., Almeida, T., Lopes, F., Muryn, Y., Martins, J., & Au-Yong-Oliveira, M.
         conference: "New Knowledge in Information Systems and Technologies. WorldCIST’19 2019 (pp. 440–451)"
+presentations:
+    title: Publications
+
+    papers:
+      - title: Neural-based snippet extraction for biomedical question answering.
+        link: "http://recpad2019.dcc.fc.up.pt/wp-content/uploads/2019/05/ProceedingsRECPAD.pdf#page=79"
+        authors: Almeida, T., & Matos, S.
+        conference: 25th Portuguese Conference on Pattern Recognition (2019), 79–80
+
+      - title: "Microtransactions in the Company’s and the Player’s Perspective: A Manual and Automatic Analysis"
+        link: "https://link.springer.com/chapter/10.1007/978-3-030-16187-3_43"
+        authors: Gusmão, P., Almeida, T., Lopes, F., Muryn, Y., Martins, J., & Au-Yong-Oliveira, M.
+        conference: "New Knowledge in Information Systems and Technologies. WorldCIST’19 2019 (pp. 440–451)"
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
