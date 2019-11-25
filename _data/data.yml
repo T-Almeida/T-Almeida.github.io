@@ -66,8 +66,9 @@ publications:
         link: "https://link.springer.com/chapter/10.1007/978-3-030-16187-3_43"
         authors: Gusmão, P., Almeida, T., Lopes, F., Muryn, Y., Martins, J., & Au-Yong-Oliveira, M.
         conference: "New Knowledge in Information Systems and Technologies. WorldCIST’19 2019 (pp. 440–451)"
+
 presentations:
-    title: Publications
+    title: Presentations and Posters
 
     papers:
       - title: Neural-based snippet extraction for biomedical question answering.
