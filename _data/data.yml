@@ -72,12 +72,12 @@ presentations:
 
     papers:
       - title: Neural-based snippet extraction for biomedical question answering.
-        link: "t-almeida.github.io/online-cv/assets/pdf/poster-recpad2019.pdf"
+        link: "https://t-almeida.github.io/online-cv/assets/pdf/poster-recpad2019.pdf"
         authors: Almeida, T., & Matos, S.
         conference: 25th Portuguese Conference on Pattern Recognition (2019), 79–80
 
       - title: "Neural information Retrieval for Biomedical Question-Answering"
-        link: "t-almeida.github.io/online-cv/assets/pdf/DSPT-Tiago.pdf"
+        link: "https://t-almeida.github.io/online-cv/assets/pdf/DSPT-Tiago.pdf"
         authors: Almeida, T.
         conference: "Data Science Portugal 2019"
 
