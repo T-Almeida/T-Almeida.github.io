@@ -19,7 +19,7 @@
   {% for presentation in presentations.papers %}
   <div class="item">
     {% if presentation.link %}
-      <li><a href="{{ publication.link }}">{{ presentation.title }}</a></li>
+      <li><a href="{{ presentation.link }}">{{ presentation.title }}</a></li>
     {% else %}
       <li>{{ presentation.title }}</li>
     {% endif %}
