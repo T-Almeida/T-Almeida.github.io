@@ -49,9 +49,9 @@ projects:
     title: Projects
 
     assignments:
-      - title: Multidimesional RNN Keras and Tensorflow
+      - title: Multidimesional RNN library with Keras and Tensorflow
         link: "https://github.com/T-Almeida/tensorflow-keras-multidimensional-rnn"
-        tagline: "Open source library than exposes multidimensional rnn gates following a Keras API"
+        tagline: "Open source library that exposes multidimensional recurrent neural networks following a Keras API"
 
 publications:
     title: Publications
@@ -60,7 +60,7 @@ publications:
       - title: Neural-based snippet extraction for biomedical question answering.
         link: "http://recpad2019.dcc.fc.up.pt/wp-content/uploads/2019/05/ProceedingsRECPAD.pdf#page=79"
         authors: Almeida, T., & Matos, S.
-        conference: 25th Portuguese Conference on Pattern Recognition, 79–80
+        conference: 25th Portuguese Conference on Pattern Recognition (2019), 79–80
 
       - title: "Microtransactions in the Company’s and the Player’s Perspective: A Manual and Automatic Analysis"
         link: "https://link.springer.com/chapter/10.1007/978-3-030-16187-3_43"
