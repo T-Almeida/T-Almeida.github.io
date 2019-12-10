@@ -62,9 +62,9 @@ publications:
 
     papers:
       - title: "(Accepted) Calling attention to passages for biomedical question answering"
-        link:
+        link: ""
         authors: Almeida, T., & Matos, S.
-        conference: (To appear) European Conference on Information Retrieval (2020)
+        conference: (To appear) 42nd European Conference on Information Retrieval (2020)
       - title: "Neural-based snippet extraction for biomedical question answering."
         link: "http://recpad2019.dcc.fc.up.pt/wp-content/uploads/2019/05/ProceedingsRECPAD.pdf#page=79"
         authors: Almeida, T., & Matos, S.
