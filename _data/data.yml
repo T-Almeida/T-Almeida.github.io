@@ -1,4 +1,4 @@
-#
+﻿#
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
@@ -55,7 +55,7 @@ projects:
         tagline: "Open source library that exposes multidimensional recurrent neural networks following a Keras API"
       - title: BioASQ 7b document ranking
         link: "https://github.com/bioinformatics-ua/BioASQ"
-        tagline: "Adaptation of the DeepRank model with attention layers for the BioASQ 7b document retrieval task. It also supports an unserpevised way of snippet extraction."
+        tagline: "Adaptation of the DeepRank model with attention layers for the BioASQ 7b document retrieval task. It also supports an unsupervised way of snippet extraction."
 
 publications:
     title: Publications
