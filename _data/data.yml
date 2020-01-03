@@ -46,6 +46,16 @@ experiences:
       company: IEETA - Bioinformatics
       #details: |
 
+awards:
+    title: Awards
+
+    list:
+      - title: Prémio BPI
+        tagline: " Awarded by the Aveiro University to thebest graduate student of a bachelor or integratedmaster's degree in engineering that is not awarded withspecific prize."
+      - title: NEI mention
+        tagline: "Best student of BSc in Informatics Engineering - Awarded by NEI (Núcleo de Estudantes de Informática)."
+
+
 projects:
     title: Projects
 
