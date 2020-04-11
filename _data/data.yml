@@ -51,7 +51,7 @@ awards:
 
     list:
       - title: Prémio BPI
-        tagline: " Awarded by the Aveiro University to thebest graduate student of a bachelor or integratedmaster's degree in engineering that is not awarded withspecific prize."
+        tagline: " Awarded by the Aveiro University to the best graduate student of a bachelor or integrated master's degree in engineering that is not awarded with specific prize."
       - title: NEI mention
         tagline: "Best student of BSc in Informatics Engineering - Awarded by NEI (Núcleo de Estudantes de Informática)."
 
@@ -60,6 +60,9 @@ projects:
     title: Projects
 
     assignments:
+      - title: Covid Search
+        link: http://covidsearch.web.ua.pt/
+        tagline: Deep Learning powerd Search engine over the CORD-19 corpus. With  purpose to facilitate the biomedical search about covid-19.
       - title: Multidimesional RNN library with Keras and Tensorflow
         link: "https://github.com/T-Almeida/tensorflow-keras-multidimensional-rnn"
         tagline: "Open source library that exposes multidimensional recurrent neural networks following a Keras API"
@@ -71,8 +74,8 @@ publications:
     title: Publications
 
     papers:
-      - title: "(Accepted) Calling attention to passages for biomedical question answering"
-        link: ""
+      - title: "Calling attention to passages for biomedical question answering"
+        link: "https://link.springer.com/chapter/10.1007%2F978-3-030-45442-5_9"
         authors: Almeida, T., & Matos, S.
         conference: (To appear) 42nd European Conference on Information Retrieval (2020)
       - title: "Neural-based snippet extraction for biomedical question answering."
