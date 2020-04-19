@@ -1,37 +1,55 @@
 {% assign experiences = site.data.data.experiences %}
 {% if experiences %}
-<section class="section experiences-section">
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
-    </span>
-    Experiences
-  </h2>
+  {% if site.data.data.sidebar.education %}
+  <div class="education-container container-block">
 
-  {% for experience in experiences %}
-  <div class="item">
+    <h2 class="container-block-title">
+      Experiences
+    </h2>
 
-    <div class="meta">
+    {% for experience in experiences %}
+    <div class="item">
+      <h4 class="degree">{{ experience.role }}</h4>
+      <h5 class="meta">{{ experience.company }}</h5>
+      <div class="time">{{ experience.time }}</div>
+    </div><!--//item-->
+    {% endfor %}
 
-      <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
+  </div><!--//education-container-->
+  {% else %}
+  <section class="section experiences-section">
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+      </span>
+      Experiences
+    </h2>
 
-      <div class="company">{{ experience.company }}</div>
+    {% for experience in experiences %}
+    <div class="item">
 
-    </div><!--//meta-->
+      <div class="meta">
 
-    {% if experience.details %}
-    <div class="details">
-      {{ experience.details | markdownify }}
-    </div><!--//details-->
-    {% endif %}
+        <div class="upper-row">
+          <h3 class="job-title">{{ experience.role }}</h3>
+          <div class="time">{{ experience.time }}</div>
+        </div><!--//upper-row-->
 
-  </div><!--//item-->
-  {% endfor %}
+        <div class="company">{{ experience.company }}</div>
 
-</section><!--//section-->
+      </div><!--//meta-->
+
+      {% if experience.details %}
+      <div class="details">
+        {{ experience.details | markdownify }}
+      </div><!--//details-->
+      {% endif %}
+
+    </div><!--//item-->
+    {% endfor %}
+
+  </section><!--//section-->
+  {% endif %}
 {% endif %}
 
