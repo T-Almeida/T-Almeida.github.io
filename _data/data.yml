@@ -75,11 +75,11 @@ projects:
     assignments:
       - title: European Health Data and Evidence Network
         ref: info:eu-repo/grantAgreement/EC/H2020/806968/EU
-        founding: European Commission (Horizon 2020 Framework Programme (H2020))
+        funding: European Commission (Horizon 2020 Framework Programme (H2020))
         participation: Masters research grant ( 2019/09/01 - )
       - title: European Medical Information Framework
         ref: info:eu-repo/grantAgreement/EC/FP7/115372/EU
-        founding: European Commission (SEVENTH FRAMEWORK PROGRAMME (FP7))
+        funding: European Commission (SEVENTH FRAMEWORK PROGRAMME (FP7))
         participation: Research integration grant ( 2018/04/01 - 2019/03/31)
 
 publications:

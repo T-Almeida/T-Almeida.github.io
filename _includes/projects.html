@@ -18,15 +18,18 @@
 
   {% for project in projects.assignments %}
     <div class="item">
-
-      <div class="publication-authors">
-        {{ project.ref }}
+      <div class="project-title">
+        {{ project.title }}
       </div>
-      <div class="publication-authors">
-        {{ project.founding }}
+       
+      <div >
+        Ref: <span class="publication-authors">{{ project.ref }}</span>
       </div>
-      <div class="publication-authors">
-        {{ project.participation }}
+      <div >
+        Funding: <span class="publication-authors">{{ project.funding }}</span>
+      </div>
+      <div >
+        Participation: <span class="publication-authors">{{ project.participation }}</span>
       </div>
     </div><!--//item-->
   {% endfor %}
