@@ -55,9 +55,8 @@ awards:
       - title: NEI mention
         tagline: "Best student of BSc in Informatics Engineering - Awarded by NEI (Núcleo de Estudantes de Informática)."
 
-
-projects:
-    title: Projects
+publicsoft:
+    title: Public software
 
     assignments:
       - title: Covid Search
@@ -69,6 +68,19 @@ projects:
       - title: BioASQ 7b document ranking
         link: "https://github.com/bioinformatics-ua/BioASQ"
         tagline: "Adaptation of the DeepRank model with attention layers for the BioASQ 7b document retrieval task. It also supports an unsupervised way of snippet extraction."
+
+projects:
+    title: Projects
+
+    assignments:
+      - title: European Health Data and Evidence Network
+        ref: info:eu-repo/grantAgreement/EC/H2020/806968/EU
+        founding: European Commission (Horizon 2020 Framework Programme (H2020))
+        participation: Masters research grant ( 2019/09/01 - )
+      - title: European Medical Information Framework
+        ref: info:eu-repo/grantAgreement/EC/FP7/115372/EU
+        founding: European Commission (SEVENTH FRAMEWORK PROGRAMME (FP7))
+        participation: Research integration grant ( 2018/04/01 - 2019/03/31)
 
 publications:
     title: Publications

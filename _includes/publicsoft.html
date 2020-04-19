@@ -1,0 +1,38 @@
+{% assign publicsoft = site.data.data.projects %}
+{% if publicsoft %}
+<section class="section projects-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ publicsoft.title }}
+  </h2>
+
+  {% if publicsoft.intro %}
+  <div class="intro">
+      <p>{{ publicsoft.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for p in publicsoft.assignments %}
+    <div class="item">
+
+      <span class="project-title">
+        {% if p.link %}
+        <a href="{{ project.link }}" target="_blank">{{ p.title }}</a>
+        {% else %}
+        {{ p.title }}
+        {% endif %}
+      </span>
+
+      {% if p.tagline %}
+      - <span class="project-tagline">{{ p.tagline }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
