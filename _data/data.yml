@@ -14,7 +14,7 @@ sidebar:
 
     # Sidebar links
     email: tiagomeloalmeida@ua.pt
-    phone: 924140565
+    phone: 
     website:
     linkedin: tiago-almeida-963028149
     cv: True
@@ -66,6 +66,9 @@ publicsoft:
       - title: Multidimesional RNN library with Keras and Tensorflow
         link: "https://github.com/T-Almeida/tensorflow-keras-multidimensional-rnn"
         tagline: "Open source library that exposes multidimensional recurrent neural networks following a Keras API"
+      - title: SuperCool
+        link: "https://t-almeida.github.io/SuperCool/"
+        tagline: "A three.js game inspered on SuperHot made for the VI class, jointly done with Yuriy Muryn |"
       - title: BioASQ 7b document ranking
         link: "https://github.com/bioinformatics-ua/BioASQ"
         tagline: "Adaptation of the DeepRank model with attention layers for the BioASQ 7b document retrieval task. It also supports an unsupervised way of snippet extraction."
