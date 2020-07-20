@@ -90,6 +90,10 @@ publications:
     title: Publications
 
     papers:
+      - title: "Frugal neural reranking: evaluation on the Covid-19 literature"
+        link: "https://openreview.net/pdf?id=TtcUlbEHkum"
+        authors: Almeida, T., & Matos, S.
+        conference: Open Review
       - title: "Calling attention to passages for biomedical question answering"
         link: "https://link.springer.com/chapter/10.1007%2F978-3-030-45442-5_9"
         authors: Almeida, T., & Matos, S.
