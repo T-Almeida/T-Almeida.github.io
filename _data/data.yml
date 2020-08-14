@@ -90,6 +90,10 @@ publications:
     title: Publications
 
     papers:
+      - title: "[ACCEPTED] Lightweight neural document ranking with zero-shot snippet retrieval"
+        link: ""
+        authors: Almeida, T., & Matos, S.
+        conference: BioASQ workshop 2020 - CLEF 2020
       - title: "Frugal neural reranking: evaluation on the Covid-19 literature"
         link: "https://openreview.net/pdf?id=TtcUlbEHkum"
         authors: Almeida, T., & Matos, S.
