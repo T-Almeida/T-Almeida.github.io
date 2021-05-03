@@ -28,6 +28,9 @@ sidebar:
     orcid: 0000-0002-4258-3350
 
 education:
+    - degree: PhD candidate in Informatics Engineering
+      university: Aveiro University 
+      time: 2020 - 
     - degree: MSc in Informatics Engineering
       university: Aveiro University (18.9)
       time: 2017 - 2019
@@ -37,6 +40,10 @@ education:
       time: 2014 - 2017
       #details: |
 experiences:
+    - role: PhD Scholarship
+      time: 2021 - Present
+      company: FCT
+      #details: |
     - role: Research grant
       time: 2019 - Present
       company: IEETA - Bioinformatics
@@ -51,8 +58,12 @@ awards:
     title: Awards
 
     list:
+      - title: DGES Merit Award
+        tagline: "Awarded by DGES to the top 25 students (2018/2019) of the Aveiro University"
+      - title: BioASQ 2020 Winner
+        tagline: "One first place and two second places in the BioASQ document retrieval task"
       - title: Prémio BPI
-        tagline: " Awarded by the Aveiro University to the best graduate student of a bachelor or integrated master's degree in engineering that is not awarded with specific prize."
+        tagline: "Awarded by the Aveiro University to the best graduate student of a bachelor or integrated master's degree in engineering that is not awarded with specific prize."
       - title: NEI mention
         tagline: "Best student of BSc in Informatics Engineering - Awarded by NEI (Núcleo de Estudantes de Informática)."
 
@@ -90,14 +101,30 @@ publications:
     title: Publications
 
     papers:
-      - title: "[ACCEPTED] Lightweight neural document ranking with zero-shot snippet retrieval"
-        link: ""
+      - title: "Benchmarking a transformer-FREE model for ad-hoc retrieval"
+        link: "https://www.aclweb.org/anthology/2021.eacl-main.293.pdf"
+        authors: Almeida, T., & Matos, S.
+        conference: 16th Conference of the European Chapter of the Association for Computational Linguistics
+      - title: "BIT. UA@ TREC 2020 Precision Medicine Track"
+        link: "https://trec.nist.gov/pubs/trec29/papers/BIT.UA.PM.pdf"
+        authors: Almeida, T., & Matos, S.
+        conference: Text Retrieval Conference 2020
+      - title: "BIT. UA@ TREC 2020 Deep Learning Track"
+        link: "https://trec.nist.gov/pubs/trec29/papers/BIT.UA.DL.pdf"
+        authors: Almeida, T., & Matos, S.
+        conference: Text Retrieval Conference 2020
+      - title: "Evaluating  a  lightweight  neural  reranking  model  for  biomedical  question answering"
+        link: "http://www.aprp.pt/wp-content/uploads/proceedings_recpad2020.pdf#page=29"
+        authors: Almeida, T., & Matos, S.
+        conference: 26th Portuguese Conference on Pattern Recognition
+      - title: "BIT.UA at BioASQ 8 Lightweight neural document ranking with zero-shot snippet retrieval"
+        link: "http://www.dei.unipd.it/~ferro/CLEF-WN-Drafts/CLEF2020/paper_161.pdf"
         authors: Almeida, T., & Matos, S.
         conference: BioASQ workshop 2020 - CLEF 2020
       - title: "Frugal neural reranking: evaluation on the Covid-19 literature"
-        link: "https://openreview.net/pdf?id=TtcUlbEHkum"
+        link: "https://www.aclweb.org/anthology/2020.nlpcovid19-2.3/"
         authors: Almeida, T., & Matos, S.
-        conference: Open Review
+        conference: 1st Workshop onNLP for COVID-19 (Part 2) at EMNLP 202
       - title: "Calling attention to passages for biomedical question answering"
         link: "https://link.springer.com/chapter/10.1007%2F978-3-030-45442-5_9"
         authors: Almeida, T., & Matos, S.
