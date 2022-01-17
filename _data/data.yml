@@ -30,7 +30,7 @@ sidebar:
 education:
     - degree: PhD candidate in Informatics Engineering
       university: Aveiro University 
-      time: 2020 - 
+      time: 2020 - present
     - degree: MSc in Informatics Engineering
       university: Aveiro University (18.9)
       time: 2017 - 2019
@@ -45,7 +45,7 @@ experiences:
       company: FCT
       #details: |
     - role: Research grant
-      time: 2019 - Present
+      time: 2019 - 2021
       company: IEETA - Bioinformatics
       #details: |
 
@@ -58,6 +58,8 @@ awards:
     title: Awards
 
     list:
+      - title: BioASQ 2021 Winner
+        tagline: "second place in one batch on the BioASQ document retrieval task and four second places on the Synergy task"
       - title: DGES Merit Award
         tagline: "Awarded by DGES to the top 25 students (2018/2019) of the Aveiro University"
       - title: BioASQ 2020 Winner
@@ -71,6 +73,9 @@ publicsoft:
     title: Public software
 
     assignments:
+      - title: Polus
+        link: "https://github.com/bioinformatics-ua/polus"
+        tagline: Functional deep learning training framework based on tensorflow, focused on research and performance
       - title: Covid Search
         link: http://covidsearch.web.ua.pt/
         tagline: Deep Learning powerd Search engine over the CORD-19 corpus. With  purpose to facilitate the biomedical search about covid-19.
@@ -101,37 +106,57 @@ publications:
     title: Publications
 
     papers:
+      - title: "Chemical detection and indexing in PubMed full text articles using deep learning and rule-based methods"
+        link: "https://biocreative.bioinformatics.udel.edu/media/store/files/2021/TRACK2_pos_03_BC7_submission_136.pdf"
+        authors: Tiago Almeida, Rui Antunes, João Figueira Silva, João Almeida, Sérgio Matos
+        conference: Proceedings of the BioCreative VII Challenge Evaluation Workshop, Online event, p. 210-213, November 2021 
+      - title: "Chemical–protein relation extraction in PubMed abstracts using BERT and neural networks"
+        link: "https://biocreative.bioinformatics.udel.edu/media/store/files/2021/Track1_pos_14_BC7_submission_134.pdf"
+        authors: Rui Antunes, Tiago Almeida, João Figueira Silva, Sérgio Matos
+        conference: Proceedings of the BioCreative VII Challenge Evaluation Workshop, Online event, p. 210-213, November 2021 
+      - title: "Drug mention recognition in Twitter posts using a deep learning approach"
+        link: "https://biocreative.bioinformatics.udel.edu/media/store/files/2021/Track3_pos_12_BC7_submission_133.pdf"
+        authors: João Figueira Silva, Tiago Almeida, Rui Antunes, João Almeida, Sérgio Matos
+        conference: Proceedings of the BioCreative VII Challenge Evaluation Workshop, Online event, p. 210-213, November 2021 
+      - title: "Universal passage weighting mechanism (UPWM) in BioASQ 9b"
+        link: "http://ceur-ws.org/Vol-2936/paper-13.pdf"
+        authors: Tiago Almeida & Sérgio Matos
+        conference: Proceedings of the Working Notes of CLEF 2021
+      - title: "BioASQ Synergy: A strong and simple baseline rooted in relevance feedback"
+        link: "http://ceur-ws.org/Vol-2936/paper-12.pdf"
+        authors: Tiago Almeida & Sérgio Matos
+        conference: Proceedings of the Working Notes of CLEF 2021
       - title: "Benchmarking a transformer-FREE model for ad-hoc retrieval"
         link: "https://www.aclweb.org/anthology/2021.eacl-main.293.pdf"
-        authors: Almeida, T., & Matos, S.
+        authors: Tiago Almeida & Sérgio Matos
         conference: 16th Conference of the European Chapter of the Association for Computational Linguistics
       - title: "BIT. UA@ TREC 2020 Precision Medicine Track"
         link: "https://trec.nist.gov/pubs/trec29/papers/BIT.UA.PM.pdf"
-        authors: Almeida, T., & Matos, S.
+        authors: Tiago Almeida & Sérgio Matos
         conference: Text Retrieval Conference 2020
       - title: "BIT. UA@ TREC 2020 Deep Learning Track"
         link: "https://trec.nist.gov/pubs/trec29/papers/BIT.UA.DL.pdf"
-        authors: Almeida, T., & Matos, S.
+        authors: Tiago Almeida & Sérgio Matos
         conference: Text Retrieval Conference 2020
       - title: "Evaluating  a  lightweight  neural  reranking  model  for  biomedical  question answering"
         link: "http://www.aprp.pt/wp-content/uploads/proceedings_recpad2020.pdf#page=29"
-        authors: Almeida, T., & Matos, S.
+        authors: Tiago Almeida & Sérgio Matos
         conference: 26th Portuguese Conference on Pattern Recognition
       - title: "BIT.UA at BioASQ 8 Lightweight neural document ranking with zero-shot snippet retrieval"
         link: "http://www.dei.unipd.it/~ferro/CLEF-WN-Drafts/CLEF2020/paper_161.pdf"
-        authors: Almeida, T., & Matos, S.
+        authors: Tiago Almeida & Sérgio Matos
         conference: BioASQ workshop 2020 - CLEF 2020
       - title: "Frugal neural reranking: evaluation on the Covid-19 literature"
         link: "https://www.aclweb.org/anthology/2020.nlpcovid19-2.3/"
-        authors: Almeida, T., & Matos, S.
+        authors: Tiago Almeida & Sérgio Matos
         conference: 1st Workshop onNLP for COVID-19 (Part 2) at EMNLP 202
       - title: "Calling attention to passages for biomedical question answering"
         link: "https://link.springer.com/chapter/10.1007%2F978-3-030-45442-5_9"
-        authors: Almeida, T., & Matos, S.
+        authors: Tiago Almeida & Sérgio Matos
         conference: ECIR 2020, Advances in Information Retrieval pp 69-77
       - title: "Neural-based snippet extraction for biomedical question answering."
         link: "http://recpad2019.dcc.fc.up.pt/wp-content/uploads/2019/05/ProceedingsRECPAD.pdf#page=79"
-        authors: Almeida, T., & Matos, S.
+        authors: Tiago Almeida & Sérgio Matos
         conference: 25th Portuguese Conference on Pattern Recognition (2019), 79–80
       - title: "Microtransactions in the Company’s and the Player’s Perspective: A Manual and Automatic Analysis"
         link: "https://link.springer.com/chapter/10.1007/978-3-030-16187-3_43"
