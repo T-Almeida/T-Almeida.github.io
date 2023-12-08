@@ -84,7 +84,7 @@ publicsoft:
         tagline: (UnderDevelopment) Easy script-based tool for installing an configure an HPC-based system (Users, Work balancer, Network Storage, GPU access) over a cluster network.
       - title: Midas
         link: "https://github.com/bioinformatics-ua/midas"
-        tagline: MIDAS: MultI-framework DataloAderS. MIDAS leverages the power of the DLPack protocol to export highly efficient tf.data.Dataset to other Deep Learning frameworks, like JAX or PyTorch. 
+        tagline: MIDAS MultI-framework DataloAderS. MIDAS leverages the power of the DLPack protocol to export highly efficient tf.data.Dataset to other Deep Learning frameworks, like JAX or PyTorch. 
       - title: Polus
         link: "https://github.com/bioinformatics-ua/polus"
         tagline: Functional deep learning training framework based on tensorflow, focused on research and performance
