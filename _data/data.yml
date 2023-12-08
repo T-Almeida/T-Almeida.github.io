@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Tiago Almeida
-    tagline: Researcher @ Bioinformatics IEETA
+    tagline: PhD student @ IEETA-UA
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -32,11 +32,11 @@ education:
       university: Aveiro University 
       time: 2020 - present
     - degree: MSc in Informatics Engineering
-      university: Aveiro University (18.9)
+      university: Aveiro University (grade: 18.9)
       time: 2017 - 2019
       #details: |
     - degree: BSc in Informatics Engineering
-      university: Aveiro University (17.4)
+      university: Aveiro University (grade: 17.4)
       time: 2014 - 2017
       #details: |
 experiences:
@@ -48,7 +48,6 @@ experiences:
       time: 2019 - 2021
       company: IEETA - Bioinformatics
       #details: |
-
     - role: Research integration grant
       time: 2018 - 2019
       company: IEETA - Bioinformatics
@@ -58,12 +57,20 @@ awards:
     title: Awards
 
     list:
+      - title: Top-team at BC8 track 2 (SympTEMIST)
+        tagline: "Top-competitor (2nd places) at the BC8 SympTEMIST track (https://zenodo.org/records/10104547)"
+      - title: BioASQ 2023 Winner
+        tagline: "Challenge winner at the 2023 BioASQ (http://bioasq.org/)"
+      - title: BioASQ 2022 Winner
+        tagline: "Challenge winner at the 2022 BioASQ (http://bioasq.org/)"
+      - title: Best-team at BC7 track 2 (NLM-Chem Track)
+        tagline: "Top-competitor (1st places) at the BC7 NLM-Chem Track (https://academic.oup.com/database/article/doi/10.1093/database/baad005/7071696?login=false)"
       - title: BioASQ 2021 Winner
-        tagline: "second place in one batch on the BioASQ document retrieval task and four second places on the Synergy task"
+        tagline: "Challenge winner at the 2021 BioASQ (http://bioasq.org/)"
       - title: DGES Merit Award
         tagline: "Awarded by DGES to the top 25 students (2018/2019) of the Aveiro University"
       - title: BioASQ 2020 Winner
-        tagline: "One first place and two second places in the BioASQ document retrieval task"
+        tagline: "Challenge winner at the 2020 BioASQ (http://bioasq.org/)"
       - title: Prémio BPI
         tagline: "Awarded by the Aveiro University to the best graduate student of a bachelor or integrated master's degree in engineering that is not awarded with specific prize."
       - title: NEI mention
@@ -73,6 +80,11 @@ publicsoft:
     title: Public software
 
     assignments:
+      - title: easyHPC
+        tagline: (UnderDevelopment) Easy script-based tool for installing an configure an HPC-based system (Users, Work balancer, Network Storage, GPU access) over a cluster network.
+      - title: Midas
+        link: "https://github.com/bioinformatics-ua/midas"
+        tagline: MIDAS: MultI-framework DataloAderS. MIDAS leverages the power of the DLPack protocol to export highly efficient tf.data.Dataset to other Deep Learning frameworks, like JAX or PyTorch. 
       - title: Polus
         link: "https://github.com/bioinformatics-ua/polus"
         tagline: Functional deep learning training framework based on tensorflow, focused on research and performance
@@ -106,6 +118,34 @@ publications:
     title: Publications
 
     papers:
+      - title: "BIT.UA at Biocreative VIII track 1: A joint model for relation classification and novelty detection"
+        link: "https://zenodo.org/records/10117952"
+        authors: Tiago Almeida, Richard Jonker, João Almeida, Sérgio Matos
+        conference: Proceedings of the BioCreative VIII Challenge Evaluation Workshop, 2023
+      - title: "Team BIT.UA @ BC8 SympTEMIST Track: A Two-Step Pipeline for Discovering and Normalizing Clinical Symptoms in Spanish."
+        link: "https://zenodo.org/records/10103360"
+        authors: Richard Jonker, Tiago Almeida, Sérgio Matos, João Almeida
+        conference: Proceedings of the BioCreative VIII Challenge Evaluation Workshop, 2023
+      - title: "BIT. UA at MedProcNER: discovering medical procedures in Spanish using transformer models with MCRF and augmentation"
+        link: "https://ceur-ws.org/Vol-3497/paper-005.pdf"
+        authors: Tiago Almeida, Richard Jonker, Roshan Poudel, Jorge M. Silva, Sérgio Matos
+        conference: Proceedings of the Working Notes of CLEF 2023.
+      - title: "BIT. UA at BioASQ 11B: Two-Stage IR with Synthetic Training and Zero-Shot Answer Generation"
+        link: "https://ceur-ws.org/Vol-3497/paper-004.pdf"
+        authors: Tiago Almeida, Richard Jonker, Roshan Poudel, Jorge M. Silva, Sérgio Matos
+        conference: Proceedings of the Working Notes of CLEF 2023.
+      - title: "Automatic extraction of medication mentions from tweets—overview of the biocreative VII shared task 3 competition"
+        link: "https://academic.oup.com/database/article/doi/10.1093/database/baac108/7025388?login=false"
+        authors: Davy Weissenbacher, Karen O’Connor, Siddharth Rawal, Yu Zhang, Richard Tzong-Han Tsai, Timothy Miller, Dongfang Xu, Carol Anderson, Bo Liu, Qing Han, Jinfeng Zhang, Igor Kulev, Berkay Köprü, Raul Rodriguez-Esteban, Elif Ozkirimli, Ammer Ayach, Roland Roller, Stephen Piccolo, Peijin Han, VG Vinod Vydiswaran, Ramya Tekumalla, Juan M Banda, Parsa Bagherzadeh, Sabine Bergler, João F Silva, Tiago Almeida, Paloma Martinez, Renzo Rivera-Zavala, Chen-Kai Wang, Hong-Jie Dai, Luis Alberto Robles Hernandez, Graciela Gonzalez-Hernandez
+        conference: Journal Database Volume 2023.
+      - title: "Deep Learning solutions based on fixed contextualized embeddings from PubMedBERT on BioASQ 10b and traditional IR in Synergy"
+        link: "https://ceur-ws.org/Vol-3180/paper-12.pdf"
+        authors: Tiago Almeida, André Pinho, Rodrigo Pereira, Sérgio Matos
+        conference: Proceedings of the Working Notes of CLEF 2022.
+      - title: "Chemical identification and indexing in PubMed full-text articles using deep learning and heuristics"
+        link: "https://academic.oup.com/database/article/doi/10.1093/database/baac047/6625810"
+        authors: Tiago Almeida, Rui Antunes, João Figueira Silva, João Almeida, Sérgio Matos
+        conference: Journal Database Volume 2022.
       - title: "Chemical detection and indexing in PubMed full text articles using deep learning and rule-based methods"
         link: "https://biocreative.bioinformatics.udel.edu/media/store/files/2021/TRACK2_pos_03_BC7_submission_136.pdf"
         authors: Tiago Almeida, Rui Antunes, João Figueira Silva, João Almeida, Sérgio Matos
@@ -163,19 +203,19 @@ publications:
         authors: Gusmão, P., Almeida, T., Lopes, F., Muryn, Y., Martins, J., & Au-Yong-Oliveira, M.
         conference: "New Knowledge in Information Systems and Technologies. WorldCIST’19 2019 (pp. 440–451)"
 
-presentations:
-    title: Presentations and Posters
+#presentations:
+#    title: Presentations and Posters
 
-    papers:
-      - title: Neural-based snippet extraction for biomedical question answering.
-        link: "https://t-almeida.github.io/online-cv/assets/pdf/poster-recpad2019.pdf"
-        authors: Almeida, T., & Matos, S.
-        conference: 25th Portuguese Conference on Pattern Recognition (2019), 79–80
+#    papers:
+#      - title: Neural-based snippet extraction for biomedical question answering.
+#        link: "https://t-almeida.github.io/online-cv/assets/pdf/poster-recpad2019.pdf"
+#        authors: Almeida, T., & Matos, S.
+#        conference: 25th Portuguese Conference on Pattern Recognition (2019), 79–80
 
-      - title: "Neural information Retrieval for Biomedical Question-Answering"
-        link: "https://t-almeida.github.io/online-cv/assets/pdf/DSPT-Tiago.pdf"
-        authors: Almeida, T.
-        conference: "Data Science Portugal 2019"
+ #     - title: "Neural information Retrieval for Biomedical Question-Answering"
+ #       link: "https://t-almeida.github.io/online-cv/assets/pdf/DSPT-Tiago.pdf"
+ #       authors: Almeida, T.
+ #       conference: "Data Science Portugal 2019"
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
